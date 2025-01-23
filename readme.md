@@ -13,7 +13,7 @@ The **Primitivism** mod for Factorio introduces a unique challenge by limiting t
 ## Installation
 
 1. Download the mod from the Factorio Mod Portal.
-2. Place the downloaded file in the `mods` folder located at `/C:/Users/user/AppData/Roaming/Factorio/mods/`.
+2. Place the downloaded file in the `mods` folder located at `/C:/Users/<user>/AppData/Roaming/Factorio/mods/`.
 3. Launch Factorio and enable the Primitivism mod in the `Mods` menu.
 
 ## Usage
