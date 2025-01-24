@@ -49,6 +49,7 @@ function on_research_finished()
 
     if researched > research_limit then
         scale = (scale * 100) - 100
+        if(scale == 1) then scale = 2 end
     else
         calculate_scale()
         scale_cost()
@@ -63,6 +64,6 @@ do primitivism_init() end
 script.on_event(defines.events.on_research_finished, function(event)
     if not event.by_script then
         on_research_finished()
-        game.print("You Have "..research_limit - researched.." Researches Remaining")
+        game.print("You have "..research_limit - researched.." researches remaining before boredom sets in.")
     end
 end)
