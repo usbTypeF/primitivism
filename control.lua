@@ -48,7 +48,7 @@ function on_research_finished()
     count_researched()
 
     if researched > research_limit then
-        game.difficulty_settings.technology_price_multiplier = 1000
+        scale = (scale * 100) - 100
     else
         calculate_scale()
         scale_cost()

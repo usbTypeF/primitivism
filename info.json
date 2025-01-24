@@ -1,9 +1,9 @@
 {
     "name": "primitivism",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "title": "Primitivism",
     "author": "usbTypeF",
     "factorio_version": "2.0",
     "dependencies": ["base >= 2.0"],
-    "description": "This mod causes the engineer to become scientifically primitive."
+    "description": "This mod causes the engineer to become scientifically primitive.\n\nThe engineer can only research a certain number of technologies before they become bored and research cost scales massively"
   }
