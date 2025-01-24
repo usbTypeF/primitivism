@@ -1,0 +1,11 @@
+Version 0.0.1
+Set limits to amount of researches and add cost scaling
+
+Version 0.0.2
++ fixed some minor issues
+
+Version 0.0.3
++ fixed more minor issues
+
+Version 0.1.0
++ After research console will send a message displaying how many researches you have remaining.

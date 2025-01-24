@@ -52,7 +52,8 @@ function on_research_finished()
     else
         calculate_scale()
         scale_cost()
-    end  
+    end
+
 end
 
 --
@@ -62,5 +63,6 @@ do primitivism_init() end
 script.on_event(defines.events.on_research_finished, function(event)
     if not event.by_script then
         on_research_finished()
+        game.print("You Have "..research_limit - researched.." Researches Remaining")
     end
 end)
