@@ -1,11 +1,13 @@
 local scale, research_limit, researched, cost_scale
 
-function space_age_check()
-    space_age = false
+function mod_check()
 
     for name, _ in pairs(script.active_mods) do
         if name == "space-age" then
             research_limit = research_limit * 2
+        end
+        if name == "pymodpack" then
+            research_limit = research_limit * 9.73
         end
     end
 end
@@ -29,7 +31,7 @@ function primitivism_init()
         scale = 1
     end
 
-    space_age_check()
+    mod_check()
 end
 
 function scale_cost()
